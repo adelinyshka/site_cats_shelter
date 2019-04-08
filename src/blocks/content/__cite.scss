@@ -1,0 +1,80 @@
+@media screen and (min-width:600px) and (max-width:1400px) {
+
+  blockquote {
+    margin: 0;
+    padding: 40px;
+    color: #3F484D;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+  }
+  blockquote:before, blockquote:after {
+    font-size: 45px;
+    color: #3CA1D9;
+    position: absolute;
+    height: 2px;
+    left: 40px;
+    right: 40px;
+    line-height: .5;
+    background: linear-gradient(to right, #3CA1D9 45%, transparent 45%, transparent), linear-gradient(to right, transparent, transparent 55%, #3CA1D9 55%);
+    font-family: serif;
+  }
+  blockquote:before {
+    content: "\201C";
+    top: 30px;
+  }
+  blockquote:after {
+    content: "\201D";
+    bottom: 30px;
+  }
+  blockquote p {
+    font-size: 20px;
+  }
+  blockquote footer {
+    margin-bottom: 1em;
+  }
+  blockquote cite {
+    font-style: normal;
+  }
+}
+
+@media screen and (min-width:300px) and (max-width:599px) {
+  blockquote {
+    margin: 0;
+    padding: 20px;
+    padding-top: 40px;
+    color: #3F484D;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+  }
+  blockquote:before, blockquote:after {
+    font-size: 25px;
+    color: #3CA1D9;
+    position: absolute;
+    height: 2px;
+    left: 40px;
+    right: 40px;
+    line-height: .5;
+    background: linear-gradient(to right, #3CA1D9 45%, transparent 45%, transparent), linear-gradient(to right, transparent, transparent 55%, #3CA1D9 55%);
+    font-family: serif;
+  }
+  blockquote:before {
+    content: "\201C";
+    top: 30px;
+  }
+  blockquote:after {
+    content: "\201D";
+    bottom: 30px;
+  }
+  blockquote p {
+    font-size: 16px;
+  }
+  blockquote footer {
+    margin-bottom: 1em;
+  }
+  blockquote cite {
+    font-style: normal;
+  }
+}
+

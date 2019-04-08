@@ -1,0 +1,11 @@
+include __logo.pug
+include __icon_vk.pug
+mixin menu(text_left, text_right)
+	.container-fluid.p-3.header__menu-style
+		.row.align-items-center
+			.col-md-2.d-none.d-md-block.text-center
+				+logo()
+			.col-sm-10.col-md-8.col-xs-12.col-10.text-center
+				.header__menu--cat-style.header__menu-head Приют для кошек "Котофеи" СПБРООЗЖ "Второй шанс"
+			.col-2.col-sm-2.col-md-2.text-center.pl-1
+				+vk()
