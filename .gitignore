@@ -1,9 +1,10 @@
 node_modules/
 dist/
-build/
 *.log
 *.lock
 .babelrc
 .DS_Store
 .idea/
+yarn.lock
+yarn-error.log
 
